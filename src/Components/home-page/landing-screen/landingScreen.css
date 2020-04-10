@@ -1,0 +1,60 @@
+
+.landingScreen{
+    background-image: url('../../../assets/images/bkg.jpg');
+    height: 100vh;
+    width: 100vw;
+    /*width: auto;*/
+    background-size: cover;
+    background-position: right;
+    /*padding-top: 50vh;*/
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    /*vertical-align: bottom;*/
+    /*display: inline-block;*/
+}
+
+.writup{
+    margin-top: 90%;
+    margin-left: 10vw;
+    /*border: 1px solid red;*/
+    width: 90vw;
+    /*height: 20vw;*/
+    position: absolute;
+    bottom: 10vh;
+}
+
+.textTitle {
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Droid Sans Mono";
+}
+
+.textDetails{
+    padding-top: 0.5vw;
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    /*font-family: "Liberation Sans Narrow";*/
+}
+
+@media only screen and (max-width: 625px) {
+    .writup {
+        bottom: 15vh;
+        margin-right: 10vw;
+        width: 80vw;
+    }
+    .textDetails{
+        padding-top: 2vw;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .textTitle {
+        font-size: 30px;
+    }
+    .textDetails{
+        font-size: 13px;
+    }
+}

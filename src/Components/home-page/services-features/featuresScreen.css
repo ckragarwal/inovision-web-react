@@ -1,0 +1,323 @@
+.featureScreen{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    /*padding: 2vw 5vh;*/
+}
+
+.heading1{
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    width: 100%;
+    /*border: 1px solid red;*/
+    font-size: 25px;
+    font-weight: bolder;
+}
+.aboutus{
+    position: relative;
+    text-align: justify;
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    font-size: 22px;
+}
+
+.heading2{
+    position: relative;
+    text-align: center;
+    margin-top: 5vh;
+    width: 100%;
+    /*border: 1px solid red;*/
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.services {
+    position: relative;
+    width: 90%;
+    margin: 5% 5% 0 5%;
+    font-size: 22px;
+    line-height: 5vh;
+}
+
+/*.missionContainer{*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    border: 1px solid red;*/
+/*    height: 80%;*/
+/*    width: 80%;*/
+/*    margin: 10% 10%;*/
+/*}*/
+.missionText{
+    position: absolute;
+    display: inline-block;
+    height: auto;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1290px) {
+    .missionText{
+        font-size: 18px;
+        margin-top: 14%;
+    }
+}
+@media only screen and (max-width: 1153px) {
+    .missionText{
+        font-size: 16px;
+        margin-top: 15%;
+    }
+}
+@media only screen and (max-width: 1025px) {
+    .missionText{
+        /*font-size: 16px;*/
+        margin-top: 12%;
+    }
+}
+.missionImage{;
+    position: relative;
+    display: inline-block;
+    height: auto;
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 700px) {
+    .missionImage{
+        /*font-size: 16px;*/
+        margin-top: 13%;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .missionImage{
+        /*font-size: 16px;*/
+        margin-top: 19%;
+    }
+}
+.ourmission{
+    position: relative;
+    text-align: center;
+}
+.moto{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+.large{
+    display: inline-block;
+    font-size: 23px;
+}
+.small{
+    display: inline-block;
+}
+.missiondesc{
+    padding-top: 5%;
+    text-align: justify;
+}
+.imgmission{
+    padding-left: 5%;
+    padding-top: 0%;
+    width: 100%;
+}
+.visionImage{
+    padding-top: 70vh;
+    padding-left: 10vw;
+    height: 70%;
+    width: 37%;
+    display: inline-block;
+}
+.imgvision{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px gray;
+}
+.visionText{
+    display: inline-block;
+    height: 70%;
+    width: 40%;
+    padding-left: 5%;
+    text-align: center;
+}
+.ourvision{
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+}
+.visiondesc{
+    display: inline-block;
+    text-align: justify;
+    padding-top: 5vh;
+}
+.visionImage2{
+    display: none;
+}
+.visionText2{
+    display: none;
+}
+/*added new*/
+.keyfeatures{
+    margin-top: 15vh;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.servicesoffered{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.col-1-disp{
+    position: relative;
+    height: 100%;
+    width: 44%;
+    margin-left: 5%;
+    /*border: 1px solid red;*/
+    display: inline-block;
+}
+.col-2-disp{
+    position: relative;
+    height: 100%;
+    width: 44%;
+    /*margin-left: 5%;*/
+    /*border: 1px solid red;*/
+    display: inline-block;
+    text-align: center;
+}
+.single-col-disp{
+    display: none;
+}
+.service-img{
+    height: auto;
+    width: 7vw;
+}
+.mob-img{
+    height: auto;
+    width: 4.5vw;
+    margin: 0 1.25vw;
+}
+.services-name{
+    display: inline-block;
+    position: absolute;
+    margin-top: 2.5vw;
+}
+.sizedBox{
+    height: 10vh;
+}
+.sizedBox2{
+    height: 5vh;
+}
+@media only screen and (max-width: 960px) {
+    .services-name{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .col-2-disp{
+        width: 46%;
+    }
+    .missionText{
+        margin-top: 11%;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .col-2-disp{
+        width: 49%;
+    }
+}
+@media only screen and (max-width: 787px) {
+    .col-2-disp{
+        width: 51%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .col-2-disp{
+        width: 51%;
+    }
+    .services-name{
+        /*font-size: 19px;*/
+        margin-top: 1.5vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 860px){
+    .missiondesc{
+        font-size: 13px;
+    }
+    .visiondesc{
+        font-size: 12px;
+    }
+    .visionImage{
+        padding-top: 60vh;
+    }
+}
+@media only screen and (max-width: 600px){
+    .visionImage{
+        padding-top: 50vh;
+    }
+    .col-1-disp{
+        display: none;
+    }
+    .col-2-disp{
+        display: none;
+    }
+    .single-col-disp{
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0 5%;
+    }
+    .service-img{
+        width: 11vw;
+    }
+    .mob-img{
+        width: 7vw;
+        margin: 0 2vw;
+    }
+    .services-name{
+        margin-top: 3.5vw;
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .missionText{
+        position: relative;
+        width: 85%;
+    }
+    .missionImage{
+        position: relative;
+        width: 85vw;
+        margin-left: 5vw;
+    }
+    .visionImage{
+        display: none;
+    }
+    .visionText{
+        display: none;
+    }
+    .visionImage2{
+        width: 80vw;
+        padding-top: 5vh;
+        display: block;
+        margin-left: 10%;
+        margin-top: 5vh;
+    }
+    .visionText2{
+        padding-top: 10vh;
+        width: 85%;
+        margin-left: 10%;
+        display: block;
+        text-align: center;
+    }
+}

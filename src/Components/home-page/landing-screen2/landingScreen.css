@@ -1,0 +1,65 @@
+.landingScreen2{
+    background-image: url('../../../assets/images/bkg.jpg');
+    height: 100vh;
+    width: 100vw;
+    /*width: auto;*/
+    background-size: cover;
+    background-position: right;
+    /*padding-top: 50vh;*/
+    position: relative;
+    display: inline-block;
+    background-attachment: fixed;
+    /*vertical-align: bottom;*/
+    /*display: inline-block;*/
+    align-content: center;
+}
+
+.layer{
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.logo{
+    /*background-image: url("../../../assets/images/logo.png");*/
+    height: 25vh;
+    width: 25vh;
+    margin: 30vh auto 0;
+    /*border: 1px solid red;*/
+    position: relative;
+}
+
+.logoImage{
+    width: 100%;
+    height: auto;
+}
+
+.companyName {
+    color: orange;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: "Droid Sans Mono";
+    text-align: center;
+}
+
+.companyMoto{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3vh;
+}
+.social-media-links{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.social-media-icons{
+    margin: 1vw 1vw;
+    width: 2vw;
+}
+.sizedBoxhorizontal{
+    width: 5vw;
+}
